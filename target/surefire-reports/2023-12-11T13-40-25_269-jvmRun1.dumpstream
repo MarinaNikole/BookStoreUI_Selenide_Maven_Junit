@@ -1,0 +1,1193 @@
+# Created at 2023-12-11T13:40:57.157
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+# Created at 2023-12-11T13:40:58.252
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298429693_304_1
+
+
+# Created at 2023-12-11T13:40:58.253
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (33e18c13a242b05b75bb6f42ed49bcee)...
+
+
+# Created at 2023-12-11T13:40:58.317
+Unexpected IOException with stream: [AsyncHttpClient-1-4] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+
+
+# Created at 2023-12-11T13:40:58.318
+Unexpected IOException with stream: java.net.SocketException: Connection reset
+
+# Created at 2023-12-11T13:40:58.319
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.321
+Unexpected IOException with stream: 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+
+# Created at 2023-12-11T13:40:58.323
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.323
+Unexpected IOException with stream: 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+
+# Created at 2023-12-11T13:40:58.326
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.327
+Unexpected IOException with stream: 	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+
+# Created at 2023-12-11T13:40:58.332
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.334
+Unexpected IOException with stream: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+
+# Created at 2023-12-11T13:40:58.335
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.337
+Unexpected IOException with stream: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+
+# Created at 2023-12-11T13:40:58.340
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.341
+Unexpected IOException with stream: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+
+# Created at 2023-12-11T13:40:58.342
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.343
+Unexpected IOException with stream: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+
+# Created at 2023-12-11T13:40:58.344
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.346
+Unexpected IOException with stream: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+
+# Created at 2023-12-11T13:40:58.348
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.349
+Unexpected IOException with stream: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+
+# Created at 2023-12-11T13:40:58.352
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.354
+Unexpected IOException with stream: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+
+# Created at 2023-12-11T13:40:58.355
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.356
+Unexpected IOException with stream: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+
+# Created at 2023-12-11T13:40:58.361
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.365
+Unexpected IOException with stream: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+
+# Created at 2023-12-11T13:40:58.375
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.378
+Unexpected IOException with stream: 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+
+# Created at 2023-12-11T13:40:58.392
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.396
+Unexpected IOException with stream: 	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+# Created at 2023-12-11T13:40:58.420
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:40:58.428
+Unexpected IOException with stream: Dec 11, 2023 1:40:58 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+
+# Created at 2023-12-11T13:40:59.019
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 765 ms
+
+
+# Created at 2023-12-11T13:40:59.021
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (null),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298429693_304_1] in 1 [size=0]
+
+
+# Created at 2023-12-11T13:40:59.095
+Unexpected IOException: 8,1,BookStoreCatalogDisplayTest,rowsOptionsTest(BookStoreCatalogDisplayTest),null,Invalid element state [[aria-label='rows per page']]: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.html\000D\000ATimeout: 4 s.\000D\000ACaused by: ElementClickInterceptedException: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>,null,Invalid element state [[aria-label='rows per page']]: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.html\000D\000ATimeout: 4 s.\000D\000ACaused by: ElementClickInterceptedException: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>,BookStoreCatalogDisplayTest.rowsOptionsTest:55 Invalid element state [[aria-label='rows per page']]: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.html\000D\000ATimeout: 4 s.\000D\000ACaused by: ElementClickInterceptedException: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>,com.codeborne.selenide.ex.InvalidStateException: \000AInvalid element state [[aria-label='rows per page']]: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298457398.0.html\000D\000ATimeout: 4 s.\000D\000ACaused by: ElementClickInterceptedException: element click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>\000A\0009at BookStoreCatalogDisplayTest.rowsOptionsTest(BookStoreCatalogDisplayTest.java:55)\000ACaused by: org.openqa.selenium.ElementClickInterceptedException: \000Aelement click intercepted: Element <select aria-label="rows per page">...</select> is not clickable at point (667\002C 651). Other element would receive the click: <iframe frameborder="0" src="https://af4c160f5bf9dda4461846dc5103ae3f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601\002C22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" role="region" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>\000A  (Session info: chrome=119.0.6045.200)\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [33e18c13a242b05b75bb6f42ed49bcee\002C clickElement {id=FB10607F04B5AAF7874EC27DC68E314F_element_12}]\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 119.0.6045.200\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Calexd\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59473}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59473/devtoo...\002C se:cdpVersion: 119.0.6045.200\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: accept\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000AElement: [[ChromeDriver: chrome on windows (33e18c13a242b05b75bb6f42ed49bcee)] -> css selector: [aria-label='rows per page']]\000ASession ID: 33e18c13a242b05b75bb6f42ed49bcee\000A\0009at BookStoreCatalogDisplayTest.rowsOptionsTest(BookStoreCatalogDisplayTest.java:55)\000A
+
+
+# Created at 2023-12-11T13:40:59.354
+Unexpected IOException: 5,1,BookStoreCatalogDisplayTest,booksRatingIsDisplayed(BookStoreCatalogDisplayTest),null,null,null
+
+
+# Created at 2023-12-11T13:40:59.364
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+
+
+# Created at 2023-12-11T13:40:59.366
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298459365_304_1
+
+
+# Created at 2023-12-11T13:41:00.213
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:01.724
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:01.793
+Unexpected IOException with stream: Dec 11, 2023 1:41:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
+
+
+# Created at 2023-12-11T13:41:01.805
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=119.0.6045.200 Platform=windows
+
+
+# Created at 2023-12-11T13:41:01.807
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.17.0
+
+
+# Created at 2023-12-11T13:41:01.809
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.11.0 build revision: 040bc5406b
+
+
+# Created at 2023-12-11T13:41:01.810
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (07e1c634a7169a70dff2e6713c634b23)
+
+
+# Created at 2023-12-11T13:41:01.811
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (07e1c634a7169a70dff2e6713c634b23),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298459365_304_1] in 1 [size=1]
+
+
+# Created at 2023-12-11T13:41:21.862
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298459365_304_1
+
+
+# Created at 2023-12-11T13:41:21.865
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (07e1c634a7169a70dff2e6713c634b23)...
+
+
+# Created at 2023-12-11T13:41:22.640
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 777 ms
+
+
+# Created at 2023-12-11T13:41:22.641
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (null),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298459365_304_1] in 1 [size=0]
+
+
+# Created at 2023-12-11T13:41:22.644
+Unexpected IOException: 8,1,BookStoreCatalogDisplayTest,booksRatingIsDisplayed(BookStoreCatalogDisplayTest),null,Element not found {By.xpath: //*[contains(text()\002C 'Rating')]}\000D\000AExpected: visible\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.html\000D\000ATimeout: 4 s.\000D\000ACaused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[contains(text()\002C 'Rating')]"},null,Element not found {By.xpath: //*[contains(text()\002C 'Rating')]}\000D\000AExpected: visible\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.html\000D\000ATimeout: 4 s.\000D\000ACaused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[contains(text()\002C 'Rating')]"},BookStoreCatalogDisplayTest.booksRatingIsDisplayed:23 Element not found {By.xpath: //*[contains(text()\002C 'Rating')]}\000D\000AExpected: visible\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.html\000D\000ATimeout: 4 s.\000D\000ACaused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[contains(text()\002C 'Rating')]"},com.codeborne.selenide.ex.ElementNotFound: \000AElement not found {By.xpath: //*[contains(text()\002C 'Rating')]}\000D\000AExpected: visible\000D\000AScreenshot: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.png\000D\000APage source: file:/C:/Users/alexd/Projetos/BookStoreUI_Selenide/build/reports/tests/1702298480462.1.html\000D\000ATimeout: 4 s.\000D\000ACaused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[contains(text()\002C 'Rating')]"}\000A\0009at BookStoreCatalogDisplayTest.booksRatingIsDisplayed(BookStoreCatalogDisplayTest.java:23)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//*[contains(text()\002C 'Rating')]"}\000A  (Session info: chrome=119.0.6045.200)\000AFor documentation on this error\002C please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [07e1c634a7169a70dff2e6713c634b23\002C findElement {using=xpath\002C value=//*[contains(text()\002C 'Rating')]}]\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 119.0.6045.200\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Calexd\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59562}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59562/devtoo...\002C se:cdpVersion: 119.0.6045.200\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: accept\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 07e1c634a7169a70dff2e6713c634b23\000A\0009at BookStoreCatalogDisplayTest.booksRatingIsDisplayed(BookStoreCatalogDisplayTest.java:23)\000A
+
+
+# Created at 2023-12-11T13:41:22.653
+Unexpected IOException: 5,1,BookStoreCatalogDisplayTest,publicationDateIsDisplayed(BookStoreCatalogDisplayTest),null,null,null
+
+
+# Created at 2023-12-11T13:41:22.658
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+
+
+# Created at 2023-12-11T13:41:22.659
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298482659_304_1
+
+
+# Created at 2023-12-11T13:41:23.490
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:25.817
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:25.933
+Unexpected IOException with stream: Dec 11, 2023 1:41:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
+
+
+# Created at 2023-12-11T13:41:25.973
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=119.0.6045.200 Platform=windows
+
+
+# Created at 2023-12-11T13:41:25.975
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.17.0
+
+
+# Created at 2023-12-11T13:41:25.976
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.11.0 build revision: 040bc5406b
+
+
+# Created at 2023-12-11T13:41:25.978
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (bb024c450ddb828c0a039109156470f5)
+
+
+# Created at 2023-12-11T13:41:25.983
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (bb024c450ddb828c0a039109156470f5),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298482659_304_1] in 1 [size=1]
+
+
+# Created at 2023-12-11T13:41:30.232
+Unexpected IOException with stream: [main] WARN io.qameta.allure.selenide.AllureSelenide - Could not get screen shot
+
+
+# Created at 2023-12-11T13:41:30.254
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb024c450ddb828c0a039109156470f5, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\alexd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59699/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb024c450ddb828c0a039109156470f5
+
+# Created at 2023-12-11T13:41:30.260
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.262
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+# Created at 2023-12-11T13:41:30.266
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.270
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+# Created at 2023-12-11T13:41:30.271
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.274
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+# Created at 2023-12-11T13:41:30.275
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.276
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+
+# Created at 2023-12-11T13:41:30.278
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.280
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+
+# Created at 2023-12-11T13:41:30.285
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.288
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+
+# Created at 2023-12-11T13:41:30.290
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.291
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+
+# Created at 2023-12-11T13:41:30.299
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.303
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+
+# Created at 2023-12-11T13:41:30.307
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.317
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+
+# Created at 2023-12-11T13:41:30.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.319
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+
+# Created at 2023-12-11T13:41:30.320
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.322
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+
+# Created at 2023-12-11T13:41:30.331
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.332
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+
+# Created at 2023-12-11T13:41:30.333
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.334
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+
+# Created at 2023-12-11T13:41:30.335
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.337
+Unexpected IOException with stream: 	at io.qameta.allure.selenide.AllureSelenide.getScreenshotBytes(AllureSelenide.java:96)
+
+# Created at 2023-12-11T13:41:30.337
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.338
+Unexpected IOException with stream: 	at io.qameta.allure.selenide.AllureSelenide.lambda$afterEvent$4(AllureSelenide.java:134)
+
+# Created at 2023-12-11T13:41:30.339
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.354
+Unexpected IOException with stream: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+
+# Created at 2023-12-11T13:41:30.362
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.365
+Unexpected IOException with stream: 	at io.qameta.allure.selenide.AllureSelenide.afterEvent(AllureSelenide.java:132)
+
+# Created at 2023-12-11T13:41:30.367
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.369
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:95)
+
+# Created at 2023-12-11T13:41:30.370
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.371
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:86)
+
+# Created at 2023-12-11T13:41:30.374
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.376
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:138)
+
+# Created at 2023-12-11T13:41:30.378
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.379
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
+
+# Created at 2023-12-11T13:41:30.381
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.382
+Unexpected IOException with stream: 	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:69)
+
+# Created at 2023-12-11T13:41:30.385
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.389
+Unexpected IOException with stream: 	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+
+# Created at 2023-12-11T13:41:30.392
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.394
+Unexpected IOException with stream: 	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:101)
+
+# Created at 2023-12-11T13:41:30.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.416
+Unexpected IOException with stream: 	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+
+# Created at 2023-12-11T13:41:30.420
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.423
+Unexpected IOException with stream: 	at BaseTest.setUp(BaseTest.java:14)
+
+# Created at 2023-12-11T13:41:30.425
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.426
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+# Created at 2023-12-11T13:41:30.427
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.428
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+
+# Created at 2023-12-11T13:41:30.430
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.432
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+
+# Created at 2023-12-11T13:41:30.437
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.439
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2023-12-11T13:41:30.441
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.442
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+
+# Created at 2023-12-11T13:41:30.443
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.445
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+
+# Created at 2023-12-11T13:41:30.447
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.451
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+
+# Created at 2023-12-11T13:41:30.453
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.454
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+
+# Created at 2023-12-11T13:41:30.465
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.476
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-12-11T13:41:30.485
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.488
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+
+# Created at 2023-12-11T13:41:30.493
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.503
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+
+# Created at 2023-12-11T13:41:30.511
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.515
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+
+# Created at 2023-12-11T13:41:30.517
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.519
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+
+# Created at 2023-12-11T13:41:30.522
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.523
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2023-12-11T13:41:30.527
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.561
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2023-12-11T13:41:30.565
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.569
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2023-12-11T13:41:30.572
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.623
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2023-12-11T13:41:30.632
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.706
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2023-12-11T13:41:30.715
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.719
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-12-11T13:41:30.741
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.742
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2023-12-11T13:41:30.744
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.748
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2023-12-11T13:41:30.751
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.756
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2023-12-11T13:41:30.767
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.768
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2023-12-11T13:41:30.770
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.772
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2023-12-11T13:41:30.772
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.780
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2023-12-11T13:41:30.781
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.782
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2023-12-11T13:41:30.783
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.784
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2023-12-11T13:41:30.784
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.786
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2023-12-11T13:41:30.788
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.812
+Unexpected IOException with stream: [main] WARN io.qameta.allure.selenide.AllureSelenide - Could not get page source
+
+
+# Created at 2023-12-11T13:41:30.822
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=119.0.6045.200)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb024c450ddb828c0a039109156470f5, getPageSource {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\alexd\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59699/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bb024c450ddb828c0a039109156470f5
+
+# Created at 2023-12-11T13:41:30.824
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.826
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+
+# Created at 2023-12-11T13:41:30.828
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.829
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+# Created at 2023-12-11T13:41:30.831
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.833
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+
+# Created at 2023-12-11T13:41:30.834
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.835
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+
+# Created at 2023-12-11T13:41:30.838
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.847
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+
+# Created at 2023-12-11T13:41:30.855
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.857
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+
+# Created at 2023-12-11T13:41:30.858
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.860
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+
+# Created at 2023-12-11T13:41:30.860
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.876
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+
+# Created at 2023-12-11T13:41:30.886
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.888
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+
+# Created at 2023-12-11T13:41:30.889
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.891
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+
+# Created at 2023-12-11T13:41:30.893
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.899
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+
+# Created at 2023-12-11T13:41:30.901
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.903
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+
+# Created at 2023-12-11T13:41:30.906
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.909
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:381)
+
+# Created at 2023-12-11T13:41:30.913
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.915
+Unexpected IOException with stream: 	at io.qameta.allure.selenide.AllureSelenide.getPageSourceBytes(AllureSelenide.java:107)
+
+# Created at 2023-12-11T13:41:30.920
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.932
+Unexpected IOException with stream: 	at io.qameta.allure.selenide.AllureSelenide.lambda$afterEvent$4(AllureSelenide.java:138)
+
+# Created at 2023-12-11T13:41:30.935
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.941
+Unexpected IOException with stream: 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+
+# Created at 2023-12-11T13:41:30.949
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.970
+Unexpected IOException with stream: 	at io.qameta.allure.selenide.AllureSelenide.afterEvent(AllureSelenide.java:132)
+
+# Created at 2023-12-11T13:41:30.973
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.978
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:95)
+
+# Created at 2023-12-11T13:41:30.979
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.982
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.commitStep(SelenideLogger.java:86)
+
+# Created at 2023-12-11T13:41:30.989
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:30.999
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.wrap(SelenideLogger.java:138)
+
+# Created at 2023-12-11T13:41:31.002
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.013
+Unexpected IOException with stream: 	at com.codeborne.selenide.logevents.SelenideLogger.run(SelenideLogger.java:104)
+
+# Created at 2023-12-11T13:41:31.018
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.021
+Unexpected IOException with stream: 	at com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:69)
+
+# Created at 2023-12-11T13:41:31.040
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.047
+Unexpected IOException with stream: 	at com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:32)
+
+# Created at 2023-12-11T13:41:31.053
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.056
+Unexpected IOException with stream: 	at com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:101)
+
+# Created at 2023-12-11T13:41:31.075
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.075
+Unexpected IOException with stream: 	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+
+# Created at 2023-12-11T13:41:31.078
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.081
+Unexpected IOException with stream: 	at BaseTest.setUp(BaseTest.java:14)
+
+# Created at 2023-12-11T13:41:31.084
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.087
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+# Created at 2023-12-11T13:41:31.088
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.093
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+
+# Created at 2023-12-11T13:41:31.119
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.141
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+
+# Created at 2023-12-11T13:41:31.143
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.144
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2023-12-11T13:41:31.146
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.148
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+
+# Created at 2023-12-11T13:41:31.149
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.151
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+
+# Created at 2023-12-11T13:41:31.153
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.155
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+
+# Created at 2023-12-11T13:41:31.157
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.158
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+
+# Created at 2023-12-11T13:41:31.161
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.165
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-12-11T13:41:31.166
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.170
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+
+# Created at 2023-12-11T13:41:31.174
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.177
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+
+# Created at 2023-12-11T13:41:31.182
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.188
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+
+# Created at 2023-12-11T13:41:31.192
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.201
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+
+# Created at 2023-12-11T13:41:31.220
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.230
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2023-12-11T13:41:31.235
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.237
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2023-12-11T13:41:31.239
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.246
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2023-12-11T13:41:31.249
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.251
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2023-12-11T13:41:31.252
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.253
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2023-12-11T13:41:31.256
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.260
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-12-11T13:41:31.283
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.284
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2023-12-11T13:41:31.286
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.287
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2023-12-11T13:41:31.292
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.294
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2023-12-11T13:41:31.295
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.297
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2023-12-11T13:41:31.304
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.306
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2023-12-11T13:41:31.307
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.312
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2023-12-11T13:41:31.314
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.321
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2023-12-11T13:41:31.328
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.329
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2023-12-11T13:41:31.331
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.335
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2023-12-11T13:41:31.336
+Unexpected IOException with stream: 
+
+
+# Created at 2023-12-11T13:41:31.340
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298482659_304_1
+
+
+# Created at 2023-12-11T13:41:31.342
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (bb024c450ddb828c0a039109156470f5)...
+
+
+# Created at 2023-12-11T13:41:32.162
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 819 ms
+
+
+# Created at 2023-12-11T13:41:32.167
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (null),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298482659_304_1] in 1 [size=0]
+
+
+# Created at 2023-12-11T13:41:32.177
+Unexpected IOException: 7,1,BookStoreCatalogDisplayTest,publicationDateIsDisplayed(BookStoreCatalogDisplayTest),null,unknown error: cannot determine loading status\000Afrom target frame detached\000A  (Session info: chrome=119.0.6045.200)\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bb024c450ddb828c0a039109156470f5\002C get {url=https://demoqa.com/books}]\000Aselenide.url: https://demoqa.com/books\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 119.0.6045.200\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Calexd\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59699}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59699/devtoo...\002C se:cdpVersion: 119.0.6045.200\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: accept\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000Aselenide.baseUrl: http://localhost:8080\000ASession ID: bb024c450ddb828c0a039109156470f5,null,unknown error: cannot determine loading status\000Afrom target frame detached\000A  (Session info: chrome=119.0.6045.200)\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bb024c450ddb828c0a039109156470f5\002C get {url=https://demoqa.com/books}]\000Aselenide.url: https://demoqa.com/books\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 119.0.6045.200\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Calexd\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59699}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59699/devtoo...\002C se:cdpVersion: 119.0.6045.200\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: accept\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000Aselenide.baseUrl: http://localhost:8080\000ASession ID: bb024c450ddb828c0a039109156470f5,BookStoreCatalogDisplayTest>BaseTest.setUp:14 \00BB WebDriver unknown error: canno...,org.openqa.selenium.WebDriverException: \000Aunknown error: cannot determine loading status\000Afrom target frame detached\000A  (Session info: chrome=119.0.6045.200)\000ABuild info: version: '4.11.0'\002C revision: '040bc5406b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '19.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [bb024c450ddb828c0a039109156470f5\002C get {url=https://demoqa.com/books}]\000Aselenide.url: https://demoqa.com/books\000ACapabilities {acceptInsecureCerts: true\002C browserName: chrome\002C browserVersion: 119.0.6045.200\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Calexd\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59699}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59699/devtoo...\002C se:cdpVersion: 119.0.6045.200\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: accept\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000Aselenide.baseUrl: http://localhost:8080\000ASession ID: bb024c450ddb828c0a039109156470f5\000A
+
+
+# Created at 2023-12-11T13:41:32.193
+Unexpected IOException: 5,1,BookStoreCatalogDisplayTest,theBooksAreDisplayedInBookStore(BookStoreCatalogDisplayTest),null,null,null
+
+
+# Created at 2023-12-11T13:41:32.208
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+
+
+# Created at 2023-12-11T13:41:32.211
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298492209_304_1
+
+
+# Created at 2023-12-11T13:41:34.756
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:37.348
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:37.384
+Unexpected IOException with stream: Dec 11, 2023 1:41:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
+
+
+# Created at 2023-12-11T13:41:37.403
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=119.0.6045.200 Platform=windows
+
+
+# Created at 2023-12-11T13:41:37.404
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.17.0
+
+
+# Created at 2023-12-11T13:41:37.405
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.11.0 build revision: 040bc5406b
+
+
+# Created at 2023-12-11T13:41:37.406
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (ee9cd5a27a3fbcb83d2436df376f7df9)
+
+
+# Created at 2023-12-11T13:41:37.407
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (ee9cd5a27a3fbcb83d2436df376f7df9),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298492209_304_1] in 1 [size=1]
+
+
+# Created at 2023-12-11T13:41:49.265
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298492209_304_1
+
+
+# Created at 2023-12-11T13:41:49.268
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (ee9cd5a27a3fbcb83d2436df376f7df9)...
+
+
+# Created at 2023-12-11T13:41:51.579
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 2312 ms
+
+
+# Created at 2023-12-11T13:41:51.579
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (null),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298492209_304_1] in 1 [size=0]
+
+
+# Created at 2023-12-11T13:41:51.580
+Unexpected IOException: 6,1,BookStoreCatalogDisplayTest,theBooksAreDisplayedInBookStore(BookStoreCatalogDisplayTest),null,null,null
+
+
+# Created at 2023-12-11T13:41:51.582
+Unexpected IOException: 5,1,BookStoreCatalogDisplayTest,booksReviewIsDisplayed(BookStoreCatalogDisplayTest),null,null,null
+
+
+# Created at 2023-12-11T13:41:51.587
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+
+
+# Created at 2023-12-11T13:41:51.588
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298511588_304_1
+
+
+# Created at 2023-12-11T13:41:52.654
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:54.620
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+
+
+# Created at 2023-12-11T13:41:54.738
+Unexpected IOException with stream: Dec 11, 2023 1:41:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 119, so returning the closest version found: 115
+
+
+# Created at 2023-12-11T13:41:54.755
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=119.0.6045.200 Platform=windows
+
+
+# Created at 2023-12-11T13:41:54.755
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.17.0
+
+
+# Created at 2023-12-11T13:41:54.756
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.11.0 build revision: 040bc5406b
+
+
+# Created at 2023-12-11T13:41:54.761
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (fbb946d65616df6089502b225ccb4d5f)
+
+
+# Created at 2023-12-11T13:41:54.766
+Unexpected IOException with stream: [main] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (fbb946d65616df6089502b225ccb4d5f),proxy=null,downloadsFolder=C:\Users\alexd\Projetos\BookStoreUI_Selenide\build\downloads\1702298511588_304_1] in 1 [size=1]
+
+

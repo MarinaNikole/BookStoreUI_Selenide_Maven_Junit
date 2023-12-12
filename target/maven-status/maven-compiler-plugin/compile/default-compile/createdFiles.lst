@@ -1,0 +1,16 @@
+Root.class
+ApiBooksModel$Root.class
+ApiLoginViewModel.class
+ProfilePage.class
+RegisterPage.class
+ListOfBooks.class
+ApiBookListModel$ApiBookListModelBuilder.class
+ApiBookListModel.class
+BookDetailedInformationPage.class
+ApiLoginViewModel$ApiLoginViewModelBuilder.class
+ApiIsbnsModel.class
+SideBarPage.class
+ListOfBooks$ListOfBooksBuilder.class
+ApiBooksModel.class
+LoginPage.class
+BookStorePage.class
